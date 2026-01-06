@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class MenuController : MonoBehaviour
 {
 
-    [SerializeField] private GameObject menuUI;
+    [SerializeField] public GameObject menuUI;
 
     private void Awake()
     {
