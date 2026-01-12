@@ -8799,6 +8799,7 @@ GameObject:
   - component: {fileID: 1672443987}
   - component: {fileID: 1672443986}
   - component: {fileID: 1672443988}
+  - component: {fileID: 1672443989}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -8850,8 +8851,24 @@ MonoBehaviour:
   slotCount: 30
   itemPrefabs:
   - {fileID: 3614329675445773790, guid: e19003f1dd25dcf4eb7623be85815e2d, type: 3}
+  - {fileID: 681202958581322347, guid: 23985b760a3285b4fa190e7262152bc2, type: 3}
   - {fileID: 3614329675445773790, guid: e19003f1dd25dcf4eb7623be85815e2d, type: 3}
-  - {fileID: 3614329675445773790, guid: e19003f1dd25dcf4eb7623be85815e2d, type: 3}
+  - {fileID: 681202958581322347, guid: 23985b760a3285b4fa190e7262152bc2, type: 3}
+--- !u!114 &1672443989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672443985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54775c3e93514d438a33a1b25e5bea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  itemPrefabs:
+  - {fileID: -8311587033923166518, guid: e19003f1dd25dcf4eb7623be85815e2d, type: 3}
+  - {fileID: 4034095427253053823, guid: 23985b760a3285b4fa190e7262152bc2, type: 3}
 --- !u!1 &1751985169
 GameObject:
   m_ObjectHideFlags: 0
